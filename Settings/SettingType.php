@@ -17,18 +17,6 @@ class SettingType extends Model {
         ];
     }
 
-    public function setAllTypes($id, $name)
-    {
-        Cache::put("id","name");
-        Cache::put('type_id', 1);
-        Cache::put('name', "name");
-        Cache::put('type_id', 1);
-        Cache::put('name', "name");
-        Cache::put('value', "json");
-
-    }
-
-
     public function getAllTypes($type_id, $name)
     {
         return Cache::get("type_id");

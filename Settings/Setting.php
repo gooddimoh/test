@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Setting extends Model
 {
 
-    protected $id = 'id';
+    protected $fillable = 'id';
     protected $type_id = 'type_id';
     protected $name = 'name';
     protected $value = 'value';
